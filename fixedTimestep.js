@@ -1,9 +1,10 @@
 let lastRender = 0;
 function loop(timestamp) {
 	
-  let delta = timestamp - lastRender
+  let delta = (timestamp - lastRender)/1000 //convert delta from ms to second
 
-  console.log(delta);
+  update(delta)
+  render()
 
   lastRender = timestamp
   requestAnimationFrame(loop)
