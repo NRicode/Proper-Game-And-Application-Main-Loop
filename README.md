@@ -1,6 +1,6 @@
 # Proper Game And Application Main Loop
 
-There are a lot of resource and examples on how to implement game / application loop such as:
+There are a lot of resources and examples on how to implement game / application loop such as:
 + https://gamedev.stackexchange.com/questions/1589/when-should-i-use-a-fixed-or-variable-time-step
 + https://gafferongames.com/post/fix_your_timestep/
 + https://gamedev.stackexchange.com/questions/71494/delta-times-and-frame-lag-in-the-game-loop
